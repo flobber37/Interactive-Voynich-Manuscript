@@ -1,0 +1,97 @@
+body {
+  background: #353535;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centre horizontalement */
+}
+
+
+.zone {
+  position: absolute;
+  display: block; /* 🔥 TRÈS IMPORTANT */
+
+  /* background: rgba(255, 0, 0, 0.3); */
+  /* border: 2px solid red; */
+
+  cursor: pointer;
+
+  border-radius: 15%;
+}
+
+.zone1:hover {
+  border: 2px solid rgb(99, 6, 6);
+  box-shadow: 0 0 5px rgb(99, 6, 6);
+  background: rgba(99, 6, 6, 0.3);
+}
+
+.zone2:hover {
+  border: 2px solid rgb(219, 17, 17);
+  box-shadow: 0 0 5px rgb(219, 17, 17);
+  background: rgba(219, 17, 17, 0.3);
+}
+
+.zone3:hover {
+  border: 2px solid rgb(208, 169, 13);
+  box-shadow: 0 0 5px rgb(208, 169, 13);
+  background: rgba(208, 169, 13, 0.3);
+}
+
+.zone4:hover {
+  border: 2px solid rgb(8, 173, 22);
+  box-shadow: 0 0 5px rgb(8, 173, 22);
+  background: rgba(8, 173, 22, 0.3);
+}
+
+.zone5:hover {
+  border: 2px solid rgb(10, 94, 17);
+  box-shadow: 0 0 5px rgb(10, 94, 17);
+  background: rgba(10, 94, 17, 0.3);
+}
+
+
+
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 850px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+
+.annotation {
+  position: absolute;
+  display: block;
+
+  background: rgba(0, 0, 0, 0);
+
+  cursor: pointer;
+
+  border-radius: 15%;
+
+}
+
+
+@font-face {
+  font-family: "VoynichManuscrit";
+  src: url("fonts/VoynichScript7.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "VoynichManuscrit", sans-serif;
+}
+
+
+
+
+.encadrer-un-contenu{ 
+  border: 1px solid black; padding: 5px; 
+  border-radius: 1%
+} 
