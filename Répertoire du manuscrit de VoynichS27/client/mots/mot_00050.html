@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Répertoire manuscrit de Voynich</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel = "shortcut icon" href= "../logo_voynich.png">
+  <style>
+    body { background: #353535; color: rgb(255, 255, 255); text-align: center; }
+
+    
+  </style>
+</head>
+
+
+<body>
+    <h2>Écriture : <FONT size = 6pt>&#57380;&#57347;&#57352;&#58241;&#57349;&#57380;</FONT></h2>
+    <span class="encadrer-un-contenu">
+      <p> Fiabilité / Lisibilité du mot : <span style = "color:#dcae0a;">moyenne</span></p>
+      <p>Nombre de lettres : 5 (accent)</p>
+      </span>
+
+<br>
+
+    <span class="encadrer-un-contenu">
+      <p>Apparitions dans le manuscrit : <a href = "../pages/page_1_1.html" ><span style = "color:#1ac6e9;">Page 1.1, ligne 7</span></a></p>
+      <p>Occurrences : 1</p>
+      <p>Part des types de page où ce mot apparait : - Textes avec oiseaux → 100 %</p>
+    </span> 
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../graphique.js"></script>
+
+    <div style="width: 450px; height: 404px; margin: auto;">
+    <canvas id="graphiqueMot"></canvas>
+    </div>
+
+    <script>
+    creerGraphique("graphiqueMot", [1,0,0,0,0,0]);
+    </script>
+  
+   
+  
+</body>
+</html>
